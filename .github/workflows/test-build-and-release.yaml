@@ -22,7 +22,7 @@ jobs:
     name: Splint test
     runs-on: ubuntu-latest
     steps:
-      - name: Install lindt
+      - name: Install splindt
         run: |
           sudo apt install splint
       - name: Check out repository code
