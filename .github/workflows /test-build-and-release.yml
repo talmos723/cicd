@@ -13,7 +13,7 @@ jobs:
       - name: Building with check
         run: |
           gcc operations.c check_operations.c -o check_operations \
-	        `pkg-config --cflags --libs check`
+	    `pkg-config --cflags --libs check`
       - name: Testing with check
         run: |
           ./check_operations
